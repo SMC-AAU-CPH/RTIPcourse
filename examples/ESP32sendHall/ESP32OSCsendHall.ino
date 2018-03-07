@@ -29,7 +29,7 @@ const char *ssid = "ESP32-OSC";             //BS SSID
 
 int hallSensor;
 
-
+#if defined(ESP32wOLED)
 void printBuffer(void) {
   // Initialize the log buffer
   // allocate memory to store 8 lines of text and 30 chars per line.
@@ -55,7 +55,7 @@ void printBuffer(void) {
     delay(500);
   }
 }
-
+#endif
 
 
 
