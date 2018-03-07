@@ -12,7 +12,7 @@ Features:
 
 # Installation
 
-We recommend Arduino 1.05 or greater and Teensyduino 1.14 or later if you use the Teensy. Download the zip from github. Unzip it and remove text after the "-" in the name (i.e. -master) because the Arduino IDE doesn't allow certain characters in library names. Move the OSC folder into your "libraries" folder in your Arduino Sketch search path. Now you will see OSC examples under the Examples menu of Arduino. 
+We recommend Arduino 1.05 or greater and Teensyduino 1.14 or later if you use the Teensy. Download the zip from github. Unzip it and rename the folder to just "OSC". Move this OSC folder into your "libraries" folder in your Arduino Sketch search path. Now you will see OSC examples under the Examples menu of Arduino. 
 
 Additional information about installing libraries on [Arduino's website](https://www.arduino.cc/en/Guide/Libraries).
 
